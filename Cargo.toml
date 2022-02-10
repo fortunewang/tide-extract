@@ -1,0 +1,12 @@
+[package]
+name = "tide-extract"
+version = "0.16.0"
+edition = "2021"
+
+[dependencies]
+log = "0.4.13"
+tide = { version = "0.16.0", default-features = false }
+
+[dev-dependencies]
+serde = { version = "1.0.117", features = ["derive"] }
+async-std = { version = "1.6.5", features = ["attributes"] }
